@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>orft服务器</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">⟡</div>
+        <div>
+          <h1 class="server-name">orft服务器</h1>
+          <p class="tagline">纯生存 | 自由发展 | 欢迎你的加入</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="主导航">
+        <button class="tab-btn active" data-tab="intro">服务器简介</button>
+        <button class="tab-btn" data-tab="manage">服务器管理</button>
+        <button class="tab-btn" data-tab="players">服务器游玩人数</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2 class="hero-title">欢迎来到 orft服务器</h2>
+          <p class="hero-desc">纯生纯玩法，自由发展——发育、建筑、生电，想干什么就干什么，没人能管你。</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#intro">了解服务器</a>
+            <a class="btn ghost" href="mailto:whl3333@foxmail.com">联系我们</a>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-number">QQ: 1091282778</div>
+            <div class="stat-label">服务器官方群</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">在线</div>
+            <div class="stat-label">通常 5-10 人</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container content">
+      <section id="intro" class="tab-panel active panel">
+        <h3>服务器简介</h3>
+        <p>你好这里是orft服务器官网欢服务器QQ号是:1091282778，希望您能来我们的服务器游玩，我们的服务器主打纯生纯，你可以在服务器中发育，建筑，生电，想干什么就干什么，没人能管你。</p>
+      </section>
+
+      <section id="manage" class="tab-panel panel">
+        <h3>服务器管理</h3>
+
+        <div class="manage-area">
+          <div class="card top-card">
+            <button class="card-link" data-modal="mod-fuzhu">腐竹</button>
+          </div>
+
+          <div class="card-row">
+            <div class="card">
+              <button class="card-link" data-modal="mod-ggg">管理 ggg</button>
+            </div>
+            <div class="card">
+              <button class="card-link" data-modal="mod-wam">管理 WAM</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="manage-info">
+          <p class="muted">服务器邮箱 &nbsp;&nbsp; <a href="mailto:whl3333@foxmail.com">whl3333@foxmail.com</a></p>
+        </div>
+      </section>
+
+      <section id="players" class="tab-panel panel">
+        <h3>服务器游玩人数</h3>
+        <p>服务器在前几天开服，人不算多，维持在5-10人。</p>
+      </section>
+    </div>
+  </main>
+
+  <!-- Modals -->
+  <div id="mod-fuzhu" class="modal" aria-hidden="true" role="dialog" aria-labelledby="mod-fuzhu-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="关闭">×</button>
+      <h4 id="mod-fuzhu-title">腐竹</h4>
+      <p>有事在大群里说</p>
+    </div>
+  </div>
+
+  <div id="mod-ggg" class="modal" aria-hidden="true" role="dialog" aria-labelledby="mod-ggg-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="关闭">×</button>
+      <h4 id="mod-ggg-title">管理 ggg</h4>
+      <p>元老级玩家，服务器第一名成员，QQ:3947428970</p>
+    </div>
+  </div>
+
+  <div id="mod-wam" class="modal" aria-hidden="true" role="dialog" aria-labelledby="mod-wam-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="关闭">×</button>
+      <h4 id="mod-wam-title">管理 WAM</h4>
+      <p>未知</p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© orft服务器 • 欢迎加入我们的大家庭</p>
+      <p class="muted">联系邮箱：<a href="mailto:whl3333@foxmail.com">whl3333@foxmail.com</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
